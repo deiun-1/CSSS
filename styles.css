@@ -1,0 +1,80 @@
+/* styles.css - Hoàn chỉnh cho assignment */
+
+/* 3. Body */
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* 4. Header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+/* 5. Nav */
+nav {
+    background-color: #34495e;
+    padding: 10px;
+}
+
+/* 6. Main */
+main {
+    background-color: #ecf0f1;
+    font-size: 18px;
+    padding: 20px;
+    min-height: 400px;
+}
+
+/* 7. Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* 8. List items (li) */
+li {
+    display: inline-block;
+    width: 150px;           /* theo yêu cầu */
+}
+
+/* 9. h1 */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #e74c3c;
+}
+
+/* 10. p */
+p {
+    text-align: justify;
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50;
+}
+
+/* Thêm style đẹp hơn (không bắt buộc nhưng khuyến khích) */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
